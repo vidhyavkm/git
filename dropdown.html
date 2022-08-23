@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+                   background-color: lightblue;
+            padding: 15px;
+            width: 70px;
+            border: 2px solid red;
+
+         }
+        .list{
+            position:absolute;
+            left: 60px;
+            display: none;
+            background-color: black;
+            color:aliceblue;
+            padding:15px;
+            margin-top: 20px;
+
+        }
+
+        .dropdown:hover .list{
+            display:block;
+        }
+        .name{
+            padding: 7px;
+            border-bottom: 2px solid wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">COURSES
+    <div class="list"> 
+    <div class="name">HTML</div>
+    <div class="name">CSS</div>
+    <div class="name">Javasript</div>
+    <div class="name">React</div>
+    <div class="name">NodeJS</div>
+</div>
+</div>
+</body>
+</html>    
